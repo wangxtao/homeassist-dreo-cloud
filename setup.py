@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setup(
     name="hscloud",
-    version="0.0.1",
+    version="0.0.2",
     author="kane",
     author_email="wang.xiangtao@qq.com",
     description="A small package to work with prime numbers",
