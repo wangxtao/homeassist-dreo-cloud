@@ -33,7 +33,7 @@ def status(apiurl, access_token, devicesn):
     if response.status_code == 200:
         result = response.json()
         if result.get("code") == 0:
-            response_body = result.get("data").get("state")
+            response_body = result.get("data")
 
     return response_body
 
